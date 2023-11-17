@@ -21,6 +21,8 @@ def studying_hours(a):
         max_length = max(max_length, current_length)
     return max_length
 
-
-
-
+str = 'Python awesome'
+if str:
+    print(str[0:2] + str[-2:])
+else:
+    print(len(str))
